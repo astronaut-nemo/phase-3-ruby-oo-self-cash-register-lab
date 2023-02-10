@@ -29,12 +29,6 @@ class CashRegister
         end
     end
 
-    # Keeps track of what has been added to it: #items takes two arguments
-    # def items
-        
-    # end
-
-
     # Void the last transaction
     def void_last_transaction
         self.total -= self.last_transaction
